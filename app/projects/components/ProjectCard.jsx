@@ -7,10 +7,10 @@ import javascript from './images/javascript.svg';
 import react from './images/react.svg';
 import tailwind from './images/tailwind.svg';
 
-const ProjectCard = ({ name, techs }) => {
+const ProjectCard = ({ name, techs, preview }) => {
   return (
-    <li className='w-[280px] h-[280px] overflow-hidden relative group'>
-      <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.7)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
+    <li className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'>
+      <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.85)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
         <h3 className='text-xl font-semibold'>{name}</h3>
         <div className='flex items-center gap-2 justify-center'>
           {techs.map((tech, index) => (
@@ -38,9 +38,7 @@ const ProjectCard = ({ name, techs }) => {
         </div>
       </div>
       <Image
-        src={
-          'https://www.colliers.com/-/media/images/colliers/asia/philippines/colliers-review/collierreview_hero_image_01312022_v2/hero_image_tondominium/hero_image_021522/hero_image_colliersviewpoint_022222.ashx?bid=0f5b3ed2a8de41f89e1a8d557e48f9f8'
-        }
+        src={preview}
         width={200}
         height={300}
         alt='card'
