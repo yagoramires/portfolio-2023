@@ -1,12 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 
-import html from '../../../public/images/html.svg';
-import css from '../../../public/images/css.svg';
-import javascript from '../../../public/images/javascript.svg';
-import react from '../../../public/images/react.svg';
-import tailwind from '../../../public/images/tailwind.svg';
-
 const ProjectCard = ({ name, techs, preview }) => {
   return (
     <li className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'>
@@ -18,16 +12,16 @@ const ProjectCard = ({ name, techs, preview }) => {
               key={index}
               src={
                 tech === 'html'
-                  ? html
+                  ? '/html.svg'
                   : tech === 'css'
-                  ? css
+                  ? '/css.svg'
                   : tech === 'javascript'
-                  ? javascript
+                  ? '/javascript.svg'
                   : tech === 'react'
-                  ? react
+                  ? '/react.svg'
                   : tech === 'tailwind'
-                  ? tailwind
-                  : html
+                  ? '/tailwind.svg'
+                  : '/html.svg'
               }
               width={100}
               height={100}
