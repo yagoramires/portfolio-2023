@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section className='mt-32 flex flex-col justify-center items-center'>
+    <section className='mt-[-200px] flex flex-col justify-center items-center'>
       <h2 className='text-5xl font-bold text-center'>
         Hi! My name is Wlad,
         <br />

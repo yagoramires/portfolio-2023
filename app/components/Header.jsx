@@ -9,7 +9,7 @@ const Header = () => {
   const path = usePathname();
 
   return (
-    <header className='w-full flex items-center justify-center p-8'>
+    <header className='max-w-[1280px] mx-auto flex items-center justify-center p-8'>
       <h1>
         <Link href='/' className='font-extrabold'>
           .folio
