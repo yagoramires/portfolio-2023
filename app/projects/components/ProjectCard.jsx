@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
 
-import html from './images/html.svg';
-import css from './images/css.svg';
-import javascript from './images/javascript.svg';
-import react from './images/react.svg';
-import tailwind from './images/tailwind.svg';
+// import html from './images/html.svg';
+// import css from './images/css.svg';
+// import javascript from './images/javascript.svg';
+// import react from './images/react.svg';
+// import tailwind from './images/tailwind.svg';
 
 const ProjectCard = ({ name, techs, preview }) => {
   return (
@@ -18,16 +18,16 @@ const ProjectCard = ({ name, techs, preview }) => {
               key={index}
               src={
                 tech === 'html'
-                  ? html
+                  ? './images/html.svg'
                   : tech === 'css'
-                  ? css
+                  ? './images/css.svg'
                   : tech === 'javascript'
-                  ? javascript
+                  ? './images/javascript.svg'
                   : tech === 'react'
-                  ? react
+                  ? './images/react.svg'
                   : tech === 'tailwind'
-                  ? tailwind
-                  : html
+                  ? './images/tailwind.svg'
+                  : './images/html.svg'
               }
               width={100}
               height={100}
