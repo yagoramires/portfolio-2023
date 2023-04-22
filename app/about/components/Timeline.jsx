@@ -7,7 +7,7 @@ const Timeline = ({ title, icon, options }) => {
     <div className='w-full'>
       <div className='flex items-center justify-start gap-4'>
         <div className='relative'>
-          <BsCircleFill size={35} className='text-yellow-600' />
+          <BsCircleFill size={35} className='text-yellow-500' />
           {icon}
         </div>
         <h3 className='font-semibold text-xl'>{title}</h3>
