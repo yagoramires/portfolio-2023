@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import ProjectCard from './components/ProjectCard';
 
-export const metadata = {
-  title: 'Projects | Portfolio Wladmir',
-};
+// export const metadata = {
+//   title: 'Projects | Portfolio Wladmir',
+// };
 
 const Projects = () => {
   const [active, setActive] = useState({
