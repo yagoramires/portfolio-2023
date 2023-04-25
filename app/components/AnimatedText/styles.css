@@ -1,6 +1,6 @@
 .item {
     position: relative; 
-    animation: slide 5s steps(3) infinite;
+    animation: slide 6s steps(3) infinite;
     top: 0;
 }
 
@@ -8,4 +8,23 @@
     100% {
         top:  -144px;
     }
-}
+} 
+
+
+.item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid rgb(255, 216, 43);
+    background: #fff;
+    animation: typing 2s steps(18) infinite;
+    }
+    
+ @keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}  
