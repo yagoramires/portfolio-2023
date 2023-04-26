@@ -2,6 +2,7 @@
   "projects": [
     {
       "id": 1,
+      "url": "https://github.com/yagoramires/order-simulator-react-ts",
       "name": "Gerador de pedidos D2B",
       "thumb": "https://i.imgur.com/maDFVAL.png",
       "technologies": ["React", "TypeScript", "Tailwind", "Firebase"],
@@ -10,6 +11,7 @@
     {
       "id": 2,
       "name": "Movie Reviews",
+      "url": "https://github.com/yagoramires/movie-reviews-project",
       "thumb": "https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif",
       "technologies": ["React", "Tailwind", "Firebase"],
       "description": "Este aplicativo foi criado para que as pessoas pudessem avaliar os filmes que assistiram"
@@ -17,6 +19,7 @@
     {
       "id": 3,
       "name": "Fabrica Devs",
+      "url": "https://github.com/gabrielss97/fabrika-devs-vite",
       "thumb": "https://i.imgur.com/maDFVAL.png",
       "technologies": ["React", "Tailwind", "Firebase"],
       "description": "Esta plataforma de videos foi criada para uma empresa com objetivo de oferecer um curso de programação"
@@ -24,6 +27,7 @@
     {
       "id": 4,
       "name": "Hamburgueria Kenzie",
+      "url": "https://github.com/yagoramires/kenzie-burger",
       "thumb": "https://i.imgur.com/maDFVAL.png",
       "technologies": ["React", "Styled-Components", "Firebase"],
       "description": "Este aplicativo foi criado para simular um app de delivery"
@@ -31,6 +35,7 @@
     {
       "id": 5,
       "name": "Bikes Map",
+      "url": "https://github.com/yagoramires/bike-map-react-project",
       "thumb": "https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif",
       "technologies": ["React", "TypeScript", "Tailwind", "Firebase"],
       "description": "Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel"
@@ -38,6 +43,7 @@
     {
       "id": 6,
       "name": "Planets facts",
+      "url": "https://github.com/yagoramires/planets-fact-project",
       "thumb": "https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif",
       "technologies": ["React"],
       "description": "Este aplicativo foi criado com a intenção de ilustrar os planetas do sistema solar"

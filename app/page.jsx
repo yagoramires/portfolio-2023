@@ -13,7 +13,7 @@ export default function Home() {
       </h2>
       <AnimatedText />
       <h2 className='text-3xl lg:text-7xl font-bold text-center mt-[-12px] lg:mt-0'>
-        Morando no Rio de Janeiro!
+        no RJ!
       </h2>
     </section>
   );

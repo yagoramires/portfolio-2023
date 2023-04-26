@@ -7,7 +7,7 @@
 
 @media (min-width: 1024px) {
     .item{
-        animation: slide 9s steps(3) infinite;
+        animation: slide 6s steps(3) infinite;
         margin-bottom: 0;
     }
 }
@@ -32,12 +32,12 @@
     width: 100%;
     border-left: 2px solid rgb(255, 216, 43);
     background: #fff;
-    animation: typing 3s steps(18) infinite;
+    animation: typing 2s steps(21) infinite;
     }
     
  @keyframes typing {
     100% {
         left: 100%;
-        margin: 0 -35px 0 35px;
+        margin: 0 -25px 0 40px;
     }
 }  
