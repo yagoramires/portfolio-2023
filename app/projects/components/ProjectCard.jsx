@@ -2,6 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
+  console.log(project.thumb);
+
   return (
     <li className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'>
       <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.85)] hidden group-hover:flex flex-col justify-center items-center gap-4'>

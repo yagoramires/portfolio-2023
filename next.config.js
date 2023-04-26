@@ -4,7 +4,14 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['imgur.com', 'i.imgur.com', 'github.com'],
+    domains: [
+      'imgur.com',
+      'i.imgur.com',
+      'github.com',
+      'www.imgur.com',
+      'www.i.imgur.com',
+      'www.github.com',
+    ],
   },
   // async headers() {
   //   return [
