@@ -14,6 +14,10 @@ const About = async () => {
   const education = await fetchEducation();
   const experience = await fetchExperience();
 
+  console.log(abilities);
+  console.log(education);
+  console.log(experience);
+
   return (
     <div className=''>
       <section className='min-h-[calc(100vh-154px)] mb-32 flex flex-col justify-center items-center gap-16 '>
