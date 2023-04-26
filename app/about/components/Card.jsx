@@ -12,9 +12,11 @@ const Card = ({ title, description }) => {
           className='absolute top-[16px] right-[-3px]'
         />
       </div>
-      <div>
-        <h3 className='font-xl font-semibold'>{title}</h3>
-        <p>{description}</p>
+      <div className='h-[300px]'>
+        <h3 className='text-xl font-semibold mb-4'>{title}</h3>
+        <p className='text-sm text-justify overflow-hidden text-ellipsis line-clamp-10'>
+          {description}
+        </p>
       </div>
     </div>
   );

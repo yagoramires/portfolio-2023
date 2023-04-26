@@ -26,7 +26,7 @@ const Header = () => {
                     : null
                 }
               >
-                projects
+                projetos
               </span>
             </Link>
           </li>
@@ -39,7 +39,7 @@ const Header = () => {
                     : null
                 }
               >
-                about me
+                sobre mim
               </span>
             </Link>
           </li>
@@ -52,7 +52,7 @@ const Header = () => {
                     : null
                 }
               >
-                contact
+                contato
               </span>
             </Link>
           </li>

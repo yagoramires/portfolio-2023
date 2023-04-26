@@ -1,25 +1,26 @@
 import Image from 'next/image';
 import React from 'react';
 
-const ProjectCard = ({ name, techs, preview }) => {
+const ProjectCard = ({ project }) => {
+  console.log(project);
   return (
     <li className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'>
       <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.85)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
-        <h3 className='text-xl font-semibold'>{name}</h3>
+        <h3 className='text-xl font-semibold'>{project.name}</h3>
         <div className='flex items-center gap-2 justify-center'>
-          {techs.map((tech, index) => (
+          {project?.technologies?.map((technology, index) => (
             <Image
               key={index}
               src={
-                tech === 'html'
+                technology.toLowerCase() === 'html'
                   ? '/html.svg'
-                  : tech === 'css'
+                  : technology.toLowerCase() === 'css'
                   ? '/css.svg'
-                  : tech === 'javascript'
+                  : technology.toLowerCase() === 'javascript'
                   ? '/javascript.svg'
-                  : tech === 'react'
+                  : technology.toLowerCase() === 'react'
                   ? '/react.svg'
-                  : tech === 'tailwind'
+                  : technology.toLowerCase() === 'tailwind'
                   ? '/tailwind.svg'
                   : '/html.svg'
               }
@@ -32,7 +33,7 @@ const ProjectCard = ({ name, techs, preview }) => {
         </div>
       </div>
       <Image
-        src={preview}
+        src={project.thumb}
         width={200}
         height={300}
         alt='card'
