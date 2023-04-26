@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
-  console.log(project);
   return (
     <li className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'>
       <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.85)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
@@ -28,6 +27,7 @@ const ProjectCard = ({ project }) => {
               height={100}
               alt='tech'
               className='w-8 object-contain'
+              priority
             />
           ))}
         </div>
