@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
-  console.log(project.technologies);
   return (
     <li>
       <Link
