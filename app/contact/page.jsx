@@ -9,13 +9,6 @@ export const metadata = {
 };
 
 const Contact = () => {
-  function enviarEmail() {
-    var email = 'exemplo@email.com';
-    var assunto = 'Olá!';
-    var corpo = 'Este é um email de teste enviado usando JavaScript.';
-    window.open('mailto:' + email + '?subject=' + assunto + '&body=' + corpo);
-  }
-
   return (
     <section className='flex flex-col items-start justify-center gap-12 min-h-full md:flex-row w-full'>
       <div className='flex flex-col justify-center items-center gap-12 w-full md:w-[50%] mb-6 md:mb-0'>

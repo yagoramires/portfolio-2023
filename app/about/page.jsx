@@ -1,22 +1,32 @@
-import React from 'react';
+'use client';
+import React, { useEffect, useState } from 'react';
 import Card from './components/Card';
 import { TfiRulerAlt2 } from 'react-icons/tfi';
 import { FaRegEdit } from 'react-icons/fa';
 import Timeline from './components/Timeline';
 import { fetchEducation, fetchExperience, fetchAbilities } from '../api/axios';
 
-export const metadata = {
-  title: 'Sobre | Portfolio Yago',
-};
+// export const metadata = {
+//   title: 'Sobre | Portfolio Yago',
+// };
 
-const About = async () => {
-  const abilities = await fetchAbilities();
-  const education = await fetchEducation();
-  const experience = await fetchExperience();
+const About = () => {
+  const [abilities, setAbilities] = useState([]);
+  const [education, setEducation] = useState([]);
+  const [experience, setExperience] = useState([]);
 
-  console.log(abilities);
-  console.log(education);
-  console.log(experience);
+  useEffect(() => {
+    (async () => {
+      const abilities = await fetchAbilities();
+
+      const education = await fetchEducation();
+      const experience = await fetchExperience();
+
+      setAbilities(abilities);
+      setEducation(education);
+      setExperience(experience);
+    })();
+  }, []);
 
   return (
     <div className=''>
