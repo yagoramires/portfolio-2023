@@ -29,7 +29,8 @@ const ProjectCard = ({ project }) => {
               height={100}
               alt='tech'
               className='w-8 object-contain'
-              priority
+              priority={true}
+              unoptimized
             />
           ))}
         </div>
