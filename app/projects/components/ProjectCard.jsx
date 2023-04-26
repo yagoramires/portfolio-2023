@@ -10,8 +10,8 @@ const ProjectCard = ({ project }) => {
         className='w-[280px] h-[280px] overflow-hidden relative group cursor-pointer'
         target='_bank'
       >
-        <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(255,255,255,0.85)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
-          <h3 className='text-xl font-semibold'>{project.name}</h3>
+        <div className='w-[280px] h-[280px] absolute top-0 left-0 bg-[rgba(0,0,0,0.65)] hidden group-hover:flex flex-col justify-center items-center gap-4'>
+          <h3 className='text-xl font-semibold text-white'>{project.name}</h3>
           <div className='flex items-center gap-2 justify-center'>
             {project?.technologies?.map((technology, index) => (
               <Image

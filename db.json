@@ -4,7 +4,7 @@
       "id": 1,
       "url": "https://github.com/yagoramires/order-simulator-react-ts",
       "name": "Gerador de pedidos D2B",
-      "thumb": "https://i.imgur.com/maDFVAL.png",
+      "thumb": "https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif",
       "technologies": ["React", "TypeScript", "Tailwind", "Firebase"],
       "description": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
@@ -18,17 +18,17 @@
     },
     {
       "id": 3,
-      "name": "Fabrica Devs",
-      "url": "https://github.com/gabrielss97/fabrika-devs-vite",
-      "thumb": "https://i.imgur.com/maDFVAL.png",
-      "technologies": ["React", "Tailwind", "Firebase"],
-      "description": "Esta plataforma de videos foi criada para uma empresa com objetivo de oferecer um curso de programação"
+      "name": "Rick and Morty Universe",
+      "url": "https://github.com/yagoramires/rick-n-morty-project",
+      "thumb": "https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif",
+      "technologies": ["React", "CSS"],
+      "description": "The objective of this application was to create a web page of the universe of rick and morty, where the user can view characteristics of places, characters and episodes. Using the API of Rick and Morty and based on figma design."
     },
     {
       "id": 4,
       "name": "Hamburgueria Kenzie",
       "url": "https://github.com/yagoramires/kenzie-burger",
-      "thumb": "https://i.imgur.com/maDFVAL.png",
+      "thumb": "https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif",
       "technologies": ["React", "Styled-Components", "Firebase"],
       "description": "Este aplicativo foi criado para simular um app de delivery"
     },
