@@ -7,10 +7,6 @@ export const metadata = {
 const Projects = () => {
   return (
     <section>
-      <h2 className='text-5xl font-bold text-center mb-24'>
-        Coisas que eu fiz!
-      </h2>
-
       <ProjectList />
     </section>
   );

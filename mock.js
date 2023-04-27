@@ -6,8 +6,16 @@ export const projects = [
     thumb: 'https://i.imgur.com/zFRSJ1a.png',
     demo: 'https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif',
     technologies: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+    features: [
+      'Login e Cadastro de Clientes/Admins',
+      'Admins podem criar, editar e remover indústrias, produtos e descontos',
+      'Admins podem visualizar e remover pedidos',
+      'Clientes podem criar e visualizar pedidos',
+      'Preços são baseados no desconto de cada cliente/produto',
+      'Todos os usuários podem editar seus perfis',
+    ],
     description:
-      'Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa',
+      'Este aplicativo foi criado para facilitar a criação de pedidos, com ele os clientes podem gerar novos pedidos e os administradores tem controle total sobre os mesmos.',
   },
   {
     id: 2,
@@ -16,8 +24,15 @@ export const projects = [
     thumb: 'https://i.imgur.com/vagOU9a.png',
     demo: 'https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Tailwind', 'Firebase'],
+    features: [
+      'Login e Cadastro de Usuários',
+      'Usuários podem adicionar filmes que assistiram recentemente',
+      'Usuários podem criar e deletar comentários sobre os filmes adicionados',
+      'Usuários podem favoritar os filmes que mais gostam',
+      'Usuários podem editar seus perfis',
+    ],
     description:
-      'Este aplicativo foi criado para que as pessoas pudessem avaliar os filmes que assistiram',
+      'Este aplicativo foi criado com intuito que o usuário possa compartilhar os filmes que assistiu recentemente e os outros usuários deixem seus comentários a respeito deles.',
   },
   {
     id: 3,
@@ -25,9 +40,13 @@ export const projects = [
     url: 'https://github.com/yagoramires/rick-n-morty-project',
     thumb: 'https://i.imgur.com/fcU6xlv.png',
     demo: 'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'Axios', 'CSS'],
+    technologies: ['React', 'CSS', 'Axios'],
+    features: [
+      'Pesquisa de personagens, locais e episódios',
+      'Detalhes de personagens, locais e episódios',
+    ],
     description:
-      'The objective of this application was to create a web page of the universe of rick and morty, where the user can view characteristics of places, characters and episodes. Using the API of Rick and Morty and based on figma design.',
+      'Esse aplicativo foi criado para demonstrar uma integração completa com uma API em GraphQL, nele o usuário pode visualizar todos os detalhes dos personagens, localizações e episódios da série animada Rick and Morty.',
   },
   {
     id: 4,
@@ -36,7 +55,12 @@ export const projects = [
     thumb: 'https://i.imgur.com/fkyW3q8.png',
     demo: 'https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Styled-Components', 'Firebase'],
-    description: 'Este aplicativo foi criado para simular um app de delivery',
+    features: [
+      'Adicionar e remover produtos do carrinho',
+      'Pesquisar por produtos',
+    ],
+    description:
+      'Este aplicativo foi criado como exercício do curso Kenzie, no qual seu objetivo era simular um app de delivery de comida. O App foi criado todo por mim, sem auxilio de instrutores ou tutoriais.',
   },
   {
     id: 5,
@@ -45,8 +69,13 @@ export const projects = [
     thumb: 'https://i.imgur.com/fiC13dr.png',
     demo: 'https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
+    features: [
+      'Usuário pode filtrar por país',
+      'Usuário pode Filtrar por estado',
+      'Usuário pode ver as informações de cada estação de bicicletas',
+    ],
     description:
-      'Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel',
+      'Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel, como a Bike do Itau, porém no mundo todo.',
   },
   {
     id: 6,
@@ -55,8 +84,12 @@ export const projects = [
     thumb: 'https://i.imgur.com/BTw0ka0.png',
     demo: 'https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'HTML', 'CSS'],
+    features: [
+      'Usuário pode escolher entre os planetas do sistema solar',
+      'Usuário pode visualizar informações sobre cada planeta',
+    ],
     description:
-      'Este aplicativo foi criado com a intenção de ilustrar os planetas do sistema solar',
+      'Este aplicativo foi criado com a intenção de mostrar informações de cada planeta do sistema solar.',
   },
 ];
 
