@@ -5,48 +5,60 @@
       "url": "https://github.com/yagoramires/order-simulator-react-ts",
       "name": "Gerador de pedidos D2B",
       "thumb": "https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif",
       "technologies": ["React", "TypeScript", "Tailwind", "Firebase"],
-      "description": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
+      "description": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
     {
       "id": 2,
       "name": "Movie Reviews",
       "url": "https://github.com/yagoramires/movie-reviews-project",
       "thumb": "https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif",
       "technologies": ["React", "Tailwind", "Firebase"],
-      "description": "Este aplicativo foi criado para que as pessoas pudessem avaliar os filmes que assistiram"
+      "description": "Este aplicativo foi criado para que as pessoas pudessem avaliar os filmes que assistiram",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
     {
       "id": 3,
       "name": "Rick and Morty Universe",
       "url": "https://github.com/yagoramires/rick-n-morty-project",
       "thumb": "https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif",
       "technologies": ["React", "CSS"],
-      "description": "The objective of this application was to create a web page of the universe of rick and morty, where the user can view characteristics of places, characters and episodes. Using the API of Rick and Morty and based on figma design."
+      "description": "The objective of this application was to create a web page of the universe of rick and morty, where the user can view characteristics of places, characters and episodes. Using the API of Rick and Morty and based on figma design.",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
     {
       "id": 4,
       "name": "Hamburgueria Kenzie",
       "url": "https://github.com/yagoramires/kenzie-burger",
       "thumb": "https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif",
       "technologies": ["React", "Styled-Components", "Firebase"],
-      "description": "Este aplicativo foi criado para simular um app de delivery"
+      "description": "Este aplicativo foi criado para simular um app de delivery",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
     {
       "id": 5,
       "name": "Bikes Map",
       "url": "https://github.com/yagoramires/bike-map-react-project",
       "thumb": "https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif",
       "technologies": ["React", "TypeScript", "Tailwind", "Firebase"],
-      "description": "Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel"
+      "description": "Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     },
     {
       "id": 6,
       "name": "Planets facts",
       "url": "https://github.com/yagoramires/planets-fact-project",
       "thumb": "https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif",
+      "demo": "https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif",
       "technologies": ["React"],
-      "description": "Este aplicativo foi criado com a intenção de ilustrar os planetas do sistema solar"
+      "description": "Este aplicativo foi criado com a intenção de ilustrar os planetas do sistema solar",
+      "features": "Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa"
     }
   ],
   "abilities": [

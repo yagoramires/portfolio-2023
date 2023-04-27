@@ -1,34 +1,14 @@
-// 'use client';
-// import React, { useEffect, useState } from 'react';
-import Card from './components/Card';
 import { TfiRulerAlt2 } from 'react-icons/tfi';
 import { FaRegEdit } from 'react-icons/fa';
 import Timeline from './components/Timeline';
-import { abilities, education, experience } from '../../mock';
-// import { fetchEducation, fetchExperience, fetchAbilities } from '../api/axios';
+import { education, experience } from '../../mock';
+import AbilitiesList from './components/AbilitiesList';
 
 export const metadata = {
   title: 'Sobre | Portfolio Yago',
 };
 
 const About = () => {
-  // const [abilities, setAbilities] = useState([]);
-  // const [education, setEducation] = useState([]);
-  // const [experience, setExperience] = useState([]);
-
-  // useEffect(() => {
-  //   (async () => {
-  //     const abilities = await fetchAbilities();
-
-  //     const education = await fetchEducation();
-  //     const experience = await fetchExperience();
-
-  //     setAbilities(abilities);
-  //     setEducation(education);
-  //     setExperience(experience);
-  //   })();
-  // }, []);
-
   return (
     <div className=''>
       <section className='min-h-[calc(100vh-154px)] mb-32 flex flex-col justify-center items-center gap-16 '>
@@ -49,15 +29,7 @@ const About = () => {
           desenvolvendo nessa área para alcançar esse objetivo.
         </p>
 
-        <div className='flex flex-col justify-center items-center gap-6 md:grid md:grid-cols-2 lg:grid-cols-3  '>
-          {abilities?.map((ability, index) => (
-            <Card
-              key={index}
-              title={ability.title}
-              description={ability.description}
-            />
-          ))}
-        </div>
+        <AbilitiesList />
       </section>
       <section className='min-h-[calc(100vh-154px)]'>
         <h2 className='text-5xl font-bold text-center mb-20 lg:mb-40'>
