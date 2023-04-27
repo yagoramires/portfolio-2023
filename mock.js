@@ -3,8 +3,8 @@ export const projects = [
     id: 1,
     url: 'https://github.com/yagoramires/order-simulator-react-ts',
     name: 'Gerador de pedidos D2B',
-    thumb:
-      'https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif',
+    thumb: 'https://i.imgur.com/zFRSJ1a.png',
+    demo: 'https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif',
     technologies: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
     description:
       'Este aplicativo foi criado com a intenção de facilitar a criação de pedidos de compra para minha empresa',
@@ -13,8 +13,8 @@ export const projects = [
     id: 2,
     name: 'Movie Reviews',
     url: 'https://github.com/yagoramires/movie-reviews-project',
-    thumb:
-      'https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif',
+    thumb: 'https://i.imgur.com/vagOU9a.png',
+    demo: 'https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Tailwind', 'Firebase'],
     description:
       'Este aplicativo foi criado para que as pessoas pudessem avaliar os filmes que assistiram',
@@ -23,9 +23,9 @@ export const projects = [
     id: 3,
     name: 'Rick and Morty Universe',
     url: 'https://github.com/yagoramires/rick-n-morty-project',
-    thumb:
-      'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'CSS'],
+    thumb: 'https://i.imgur.com/fcU6xlv.png',
+    demo: 'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
+    technologies: ['React', 'Axios', 'CSS'],
     description:
       'The objective of this application was to create a web page of the universe of rick and morty, where the user can view characteristics of places, characters and episodes. Using the API of Rick and Morty and based on figma design.',
   },
@@ -33,8 +33,8 @@ export const projects = [
     id: 4,
     name: 'Hamburgueria Kenzie',
     url: 'https://github.com/yagoramires/kenzie-burger',
-    thumb:
-      'https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif',
+    thumb: 'https://i.imgur.com/fkyW3q8.png',
+    demo: 'https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Styled-Components', 'Firebase'],
     description: 'Este aplicativo foi criado para simular um app de delivery',
   },
@@ -42,9 +42,9 @@ export const projects = [
     id: 5,
     name: 'Bikes Map',
     url: 'https://github.com/yagoramires/bike-map-react-project',
-    thumb:
-      'https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+    thumb: 'https://i.imgur.com/fiC13dr.png',
+    demo: 'https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif',
+    technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
     description:
       'Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel',
   },
@@ -52,9 +52,9 @@ export const projects = [
     id: 6,
     name: 'Planets facts',
     url: 'https://github.com/yagoramires/planets-fact-project',
-    thumb:
-      'https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif',
-    technologies: ['React'],
+    thumb: 'https://i.imgur.com/BTw0ka0.png',
+    demo: 'https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif',
+    technologies: ['React', 'HTML', 'CSS'],
     description:
       'Este aplicativo foi criado com a intenção de ilustrar os planetas do sistema solar',
   },
@@ -62,31 +62,43 @@ export const projects = [
 
 export const abilities = [
   {
+    id: 1,
+    icon: 'react',
     title: 'React',
     description:
       'Tenho experiência em desenvolvimento de aplicativos web usando React, uma biblioteca JavaScript amplamente utilizada para construir interfaces de usuário. Com React, sou capaz de criar componentes reutilizáveis e escaláveis, tornando o processo de desenvolvimento mais eficiente. Além disso, tenho habilidade em integrar o React com outras bibliotecas e ferramentas para criar uma experiência de usuário excepcional.',
   },
   {
-    title: 'React Native com Expo',
+    id: 2,
+    icon: 'react',
+    title: 'React Native Expo',
     description:
       'Também tenho experiência em desenvolvimento de aplicativos mobile usando React Native, um framework para criar aplicativos nativos para iOS e Android com uma única base de código. Com React Native, sou capaz de criar interfaces de usuário ricas e nativas usando JavaScript, o que acelera o processo de desenvolvimento. Além disso, tenho habilidade em trabalhar com recursos nativos, como a câmera e o GPS, para criar experiências de usuário personalizadas.',
   },
   {
+    id: 3,
+    icon: 'next',
     title: 'Next JS',
     description:
       'Possuo habilidades em Next.js, um framework React que permite a criação de aplicativos web com renderização no lado do servidor. Com o Next.js, sou capaz de construir aplicativos escaláveis e otimizados para a web, com uma arquitetura que permite o carregamento rápido de páginas e uma melhor experiência do usuário. Além disso, tenho habilidade em usar recursos avançados do Next.js, como roteamento dinâmico e geração estática de páginas.',
   },
   {
-    title: 'HTML, CSS & JS',
+    id: 4,
+    icon: 'html',
+    title: 'HTML, CSS & JavaScript',
     description:
       'Tenho habilidades em desenvolvimento web usando HTML, CSS e JavaScript. Com HTML, sou capaz de estruturar e criar conteúdo em páginas web, usando tags semânticas para melhorar a acessibilidade e SEO. Com CSS, sou capaz de estilizar e posicionar elementos na página, tornando-a visualmente atraente e responsiva em diferentes dispositivos. Com JavaScript, sou capaz de adicionar interatividade e dinamismo às páginas, com a criação de funções e eventos para manipulação do DOM e o uso de bibliotecas e frameworks para criar aplicativos mais complexos. Além disso, tenho habilidade em trabalhar com ferramentas e técnicas para otimização de performance e acessibilidade, garantindo uma melhor experiência do usuário.',
   },
   {
+    id: 5,
+    icon: 'tailwind',
     title: 'CSS Frameworks',
     description:
       'Tenho habilidades em desenvolvimento web usando o Tailwind, um framework CSS que facilita a criação de estilos personalizados em páginas web. Com o Tailwind, sou capaz de criar classes de estilo reutilizáveis e aplicá-las em diferentes elementos HTML, permitindo um processo de desenvolvimento mais rápido e consistente. Além disso, tenho habilidade em usar as ferramentas do Tailwind para personalizar o estilo de acordo com as necessidades do projeto, como cores, tamanhos e espaçamentos. Também tenho experiência em desenvolvimento web usando Styled Components, uma biblioteca JavaScript para criar estilos em componentes React. Com o Styled Components, sou capaz de criar estilos encapsulados e reutilizáveis que são aplicados dinamicamente aos componentes React, tornando o código mais modular e fácil de manter. Além disso, tenho habilidade em usar recursos avançados do Styled Components, como temas e props, para criar estilos personalizados e responsivos para diferentes dispositivos.',
   },
   {
+    id: 6,
+    icon: 'axios',
     title: 'API Rest',
     description:
       'Tenho habilidades em consumir APIs de serviços web, permitindo a integração de dados e funcionalidades de outros aplicativos em projetos que estou trabalhando. Sou capaz de usar bibliotecas e ferramentas para consumir APIs RESTful, como axios e fetch, e integrá-las em aplicativos web ou móveis usando React e React Native. Além disso, tenho habilidade em trabalhar com documentação de APIs para entender como fazer solicitações e receber dados em formato JSON.',

@@ -21,6 +21,8 @@ const ProjectCard = ({ project }) => {
                     ? '/html.svg'
                     : technology.toLowerCase() === 'css'
                     ? '/css.svg'
+                    : technology.toLowerCase() === 'next'
+                    ? '/next.svg'
                     : technology.toLowerCase() === 'javascript'
                     ? '/javascript.svg'
                     : technology.toLowerCase() === 'react'
@@ -40,14 +42,14 @@ const ProjectCard = ({ project }) => {
                 alt='tech'
                 className='w-8 object-contain'
                 priority={true}
-                unoptimized
+                // unoptimized
               />
             ))}
           </div>
         </div>
         <Image
           src={project.thumb}
-          width={200}
+          width={300}
           height={300}
           alt='card'
           className='w-[280px] h-[280px] object-cover'
