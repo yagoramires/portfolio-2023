@@ -16,7 +16,7 @@ const Contact = () => {
 
         <div className='flex flex-col justify-center items-center gap-2'>
           <p className='font-medium'>yago.ramiresx@gmail.com</p>
-          <p className='font-medium'>+55 21 91971-1937</p>
+          <p className='font-medium'>+55 21 96971-1937</p>
         </div>
 
         <div className='flex items-center justify-center gap-8'>
