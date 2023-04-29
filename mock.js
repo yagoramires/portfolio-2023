@@ -139,6 +139,13 @@ export const abilities = [
 ];
 export const education = [
   {
+    id: 1,
+    name: 'Formação em Programação',
+    label: 'Kenzie Academy Brasil',
+    date: '2023 - Cursando',
+    description: 'Curso focado em desenvolvimento full stack. ',
+  },
+  {
     id: 2,
     name: 'Next.js e React',
     label: 'Udemy - Cod3r Cursos Online',
@@ -181,7 +188,7 @@ export const education = [
       'Curso de introdução ao desenvolvimento web, introduzindo HTML, CSS e Javascript. Com carga horaria de 50h.',
   },
   {
-    id: 1,
+    id: 7,
     name: 'Ciências Contábeis',
     label: 'Universidade do Estado do Rio de Janeiro - UERJ',
     date: '2015-2021',

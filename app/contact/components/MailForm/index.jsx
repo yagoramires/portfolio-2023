@@ -1,22 +1,44 @@
 'use client';
-import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { LoginSchema } from './ContactSchema';
+import { zodResolver } from '@hookform/resolvers/zod';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const MailForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    setValue,
+  } = useForm({
+    resolver: zodResolver(LoginSchema),
+  });
 
-  const sendEmail = () => {
-    window.open(
-      `mailto:'yago.ramiresx@gmail.com?subject=[Contato Portfolio] ${name}&body=${message}`,
-    );
-  };
+  const handleSubmitForm = async (formData) => {
+    try {
+      const params = {
+        from_name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
 
-  const handleSubmitForm = (e) => {
-    e.preventDefault();
-    if (!name || !email || !message) return;
+      await emailjs.send(
+        'service_r2j7j39',
+        'template_rffyfww',
+        params,
+        'tzz2xnGBz8rIMJyyu',
+      );
 
-    sendEmail();
+      setValue('name', '');
+      setValue('email', '');
+      setValue('message', '');
+
+      toast.success('E-mail enviado com sucesso!');
+    } catch (e) {
+      console.log(e);
+      toast.error('Ocorreu um erro, tente novamente');
+    }
   };
 
   return (
@@ -25,27 +47,35 @@ const MailForm = () => {
 
       <form
         className='w-full flex flex-col items-start justify-center gap-4'
-        onSubmit={handleSubmitForm}
+        onSubmit={handleSubmit(handleSubmitForm)}
       >
         <div className='flex flex-col items-center justify-center gap-4 w-full lg:flex-row'>
-          <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
-            <legend className='px-2'>Seu Nome</legend>
-            <input
-              type='text'
-              className='outline-none pb-2 pr-2'
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </fieldset>
-          <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
-            <legend className='px-2'>Seu E-mail</legend>
-            <input
-              type='text'
-              className='outline-none pb-2 pr-2'
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </fieldset>
+          <div className='w-full flex flex-col'>
+            <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
+              <legend className='px-2'>Seu Nome</legend>
+              <input
+                type='text'
+                className='outline-none pb-2 pr-2'
+                {...register('name')}
+              />
+            </fieldset>
+            <p className='text-xs w-full text-red-500 mt-[4px]'>
+              {errors?.name?.message}
+            </p>
+          </div>
+          <div className='w-full flex flex-col'>
+            <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
+              <legend className='px-2'>Seu E-mail</legend>
+              <input
+                type='text'
+                className='outline-none pb-2 pr-2'
+                {...register('email')}
+              />
+            </fieldset>
+            <p className='text-xs w-full text-red-500 mt-[4px]'>
+              {errors?.email?.message}
+            </p>
+          </div>
         </div>
         <div className='w-full'>
           <fieldset className='border-[1px] border-black pl-2 pr-2 w-full'>
@@ -53,10 +83,12 @@ const MailForm = () => {
             <textarea
               className='resize-none w-full outline-none h-28'
               maxLength={255}
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              {...register('message')}
             />
           </fieldset>
+          <p className='text-xs w-full text-red-500 mt-[4px]'>
+            {errors?.message?.message}
+          </p>
         </div>
         <input
           type='submit'

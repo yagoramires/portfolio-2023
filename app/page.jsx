@@ -12,9 +12,9 @@ export default function Home() {
         <br />e eu sou
       </h2>
       <AnimatedText />
-      <h2 className='text-3xl lg:text-7xl font-bold text-center mt-[-12px] lg:mt-0'>
+      {/* <h2 className='text-3xl lg:text-7xl font-bold text-center mt-[-12px] lg:mt-0'>
         no RJ!
-      </h2>
+      </h2> */}
     </section>
   );
 }

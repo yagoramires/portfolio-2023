@@ -18,7 +18,7 @@ const ProjectList = () => {
             <button
               className={`font-medium text-xl cursor-pointer text-yellow-600`}
             >
-              como desenvolvedor Jr
+              como desenvolvedor web
             </button>
             {/* <button
           onClick={handleSelectType}
