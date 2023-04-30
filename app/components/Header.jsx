@@ -11,7 +11,12 @@ const Header = () => {
   return (
     <header className='max-w-[1280px] mx-auto flex flex-col items-center justify-center p-8 lg:flex-row lg:relative'>
       <h1 className='mb-4 lg:md-0 lg:absolute lg:top-[32px] lg:left-[32px]'>
-        <Link href='/' className='font-extrabold'>
+        <Link
+          href='/'
+          className={
+            path === '/' ? 'font-extrabold text-yellow-500 ' : 'font-extrabold'
+          }
+        >
           .folio
         </Link>
       </h1>
