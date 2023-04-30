@@ -6,7 +6,7 @@ const AnimatedText = () => {
     <h2 className='text-3xl lg:text-7xl font-bold text-center text-yellow-500 max-h-12 lg:max-h-[72px] overflow-hidden'>
       <ul className='dynamic'>
         <li className='item'>
-          <span className='text'>Desenvolvedor Front-End</span>
+          <span className='text'>Front-End Dev</span>
         </li>
         <li className='item'>
           <span className='text'>Desenvolvedor Web</span>
