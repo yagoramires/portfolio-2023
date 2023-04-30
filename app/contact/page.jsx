@@ -12,7 +12,9 @@ const Contact = () => {
   return (
     <section className='flex flex-col items-start justify-center gap-12 min-h-full md:flex-row w-full'>
       <div className='flex flex-col justify-center items-center gap-12 w-full md:w-[50%] mb-6 md:mb-0'>
-        <h2 className='text-5xl font-bold text-center'>Entre em contato</h2>
+        <h2 className='text-3xl lg:text-6xl font-bold text-center'>
+          Entre em contato
+        </h2>
 
         <div className='flex flex-col justify-center items-center gap-2'>
           <p className='font-medium'>yago.ramiresx@gmail.com</p>

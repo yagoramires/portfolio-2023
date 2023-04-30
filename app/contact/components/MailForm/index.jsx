@@ -43,7 +43,9 @@ const MailForm = () => {
 
   return (
     <div className='flex flex-col justify-center items-center gap-12 w-full md:w-[50%]'>
-      <h2 className='text-5xl font-bold text-center'>Ou escreva aqui</h2>
+      <h2 className='text-3xl lg:text-6xl font-bold text-center'>
+        Ou escreva aqui
+      </h2>
 
       <form
         className='w-full flex flex-col items-start justify-center gap-4'

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { BiLink } from 'react-icons/bi';
 import { FiMinus } from 'react-icons/fi';
 
 const ProjectDetails = ({ project, setProject }) => {
@@ -25,11 +26,11 @@ const ProjectDetails = ({ project, setProject }) => {
         />
       </div>
       <div className='mb-6'>
-        <h2 className='text-4xl font-bold mb-4'>{project.name}</h2>
+        <h2 className='text-3xl lg:text-5xl font-bold mb-4'>{project.name}</h2>
         <p className='text-justify'>{project.description}</p>
       </div>
       <div className='mb-6'>
-        <h2 className=' text-2xl font-bold mb-4'>Features</h2>
+        <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Features</h2>
         <ul>
           {project.features?.map((feature, index) => (
             <li key={index} className='ml-10 list-disc'>
@@ -39,7 +40,7 @@ const ProjectDetails = ({ project, setProject }) => {
         </ul>
       </div>
       <div className='mb-6'>
-        <h2 className='text-2xl font-bold mb-4'>Tecnologias</h2>
+        <h2 className='text-2xl lg:text-4xl font-bold mb-4'>Tecnologias</h2>
         <div className='flex items-center justify-start gap-4'>
           {project.technologies?.map((tech, index) => (
             <Image
@@ -79,8 +80,8 @@ const ProjectDetails = ({ project, setProject }) => {
       </div>
       <div className='mb-6'>
         <Link href={project.url} target='_bank'>
-          <h2 className='text-2xl font-bold mb-4 text-yellow-500'>
-            Repositório
+          <h2 className='text-2xl lg:text-4xl font-bold mb-4 text-yellow-500 flex items-center gap-2 hover:text-blue-600 transition-all duration-200'>
+            <BiLink /> Repositório
           </h2>
         </Link>
       </div>

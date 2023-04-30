@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className=''>
       <section className='min-h-[calc(100vh-154px)] mb-32 flex flex-col justify-center items-center gap-16 '>
-        <h2 className='text-5xl font-bold text-center'>
+        <h2 className='text-3xl lg:text-6xl font-bold text-center'>
           Um pouco
           <br /> sobre mim
         </h2>
@@ -32,7 +32,7 @@ const About = () => {
         <AbilitiesList />
       </section>
       <section className='min-h-[calc(100vh-154px)]'>
-        <h2 className='text-5xl font-bold text-center mb-20 lg:mb-40'>
+        <h2 className='text-3xl lg:text-6xl font-bold text-center mb-20 lg:mb-40'>
           Educação & Experiência
         </h2>
 

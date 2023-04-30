@@ -11,7 +11,7 @@ const ProjectList = () => {
     <>
       {!project && (
         <>
-          <h2 className='text-5xl font-bold text-center mb-16'>
+          <h2 className='text-3xl lg:text-6xl font-bold text-center mb-16'>
             Coisas que eu fiz!
           </h2>
           <div className='flex justify-center items-center gap-20 mb-8'>
