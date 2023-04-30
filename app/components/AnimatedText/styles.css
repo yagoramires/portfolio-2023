@@ -1,5 +1,5 @@
 .item {
-    text-align: start;
+    text-align: center;
     position: relative; 
     top: 0;
     animation: slideMobile 9s steps(3) infinite;
@@ -24,7 +24,7 @@
         top:  -216px;
     }
 } 
-
+/* 
 .item::after {
     content: "";
     position: absolute;
@@ -41,4 +41,4 @@
         left: 100%;
         margin: 0 -35px 0 35px;
     }
-}   
+}    */

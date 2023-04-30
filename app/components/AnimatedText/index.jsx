@@ -9,10 +9,10 @@ const AnimatedText = () => {
           <span className='text'>Desenvolvedor Front-End</span>
         </li>
         <li className='item'>
-          <span className='text'>Desenvolvedor Front-End</span>
+          <span className='text'>Desenvolvedor Web</span>
         </li>
         <li className='item'>
-          <span className='text'>Desenvolvedor Front-End</span>
+          <span className='text'>Desenvolvedor Mobile</span>
         </li>
         {/* <li className='item'>
           <span className='text'>de aplicativos Web</span>
