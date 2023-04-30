@@ -16,7 +16,7 @@ const ProjectList = () => {
           </h2>
           <div className='flex justify-center items-center gap-20 mb-8'>
             <button
-              className={`font-medium text-xl cursor-pointer text-yellow-600`}
+              className={`font-medium text-xl cursor-pointer text-yellow-500`}
             >
               como desenvolvedor web
             </button>
