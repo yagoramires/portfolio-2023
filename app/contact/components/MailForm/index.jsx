@@ -57,7 +57,7 @@ const MailForm = () => {
               <legend className='px-2'>Seu Nome</legend>
               <input
                 type='text'
-                className='outline-none pb-2 pr-2'
+                className='outline-none pb-2 pr-2 w-full'
                 {...register('name')}
               />
             </fieldset>
@@ -70,7 +70,7 @@ const MailForm = () => {
               <legend className='px-2'>Seu E-mail</legend>
               <input
                 type='text'
-                className='outline-none pb-2 pr-2'
+                className='outline-none pb-2 pr-2 w-full'
                 {...register('email')}
               />
             </fieldset>
