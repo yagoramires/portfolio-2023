@@ -51,9 +51,9 @@ const MailForm = () => {
         className='w-full flex flex-col items-start justify-center gap-4'
         onSubmit={handleSubmit(handleSubmitForm)}
       >
-        <div className='flex flex-col items-center justify-center gap-4 w-full lg:flex-row'>
-          <div className='w-full flex flex-col'>
-            <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
+        <div className='flex flex-col items-center justify-center gap-4 w-full lg:flex-row '>
+          <div className='w-full flex flex-col lg:w-[50%]'>
+            <fieldset className='border-[1px] border-black pl-2 w-full '>
               <legend className='px-2'>Seu Nome</legend>
               <input
                 type='text'
@@ -65,8 +65,8 @@ const MailForm = () => {
               {errors?.name?.message}
             </p>
           </div>
-          <div className='w-full flex flex-col'>
-            <fieldset className='border-[1px] border-black pl-2 w-full lg:w-[50%]'>
+          <div className='w-full flex flex-col lg:w-[50%]'>
+            <fieldset className='border-[1px] border-black pl-2 w-full '>
               <legend className='px-2'>Seu E-mail</legend>
               <input
                 type='text'
