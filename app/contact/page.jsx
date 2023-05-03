@@ -26,10 +26,16 @@ const Contact = () => {
             href={'https://www.linkedin.com/in/yagoramires'}
             target='_blank'
           >
-            <TfiLinkedin size={30} className='hover:text-yellow-500' />
+            <TfiLinkedin
+              size={30}
+              className='hover:text-yellow-500 transition-all'
+            />
           </Link>
           <Link href={'https://github.com/yagoramires'} target='_blank'>
-            <BsGithub size={30} className='hover:text-yellow-500' />
+            <BsGithub
+              size={30}
+              className='hover:text-yellow-500 transition-all'
+            />
           </Link>
           <Link
             href={
@@ -37,7 +43,10 @@ const Contact = () => {
             }
             target='_blank'
           >
-            <BsWhatsapp size={30} className='hover:text-yellow-500' />
+            <BsWhatsapp
+              size={30}
+              className='hover:text-yellow-500 transition-all'
+            />
           </Link>
         </div>
       </div>
