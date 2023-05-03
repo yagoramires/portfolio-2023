@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { BsGithub } from 'react-icons/bs';
+import { BsGithub, BsWhatsapp } from 'react-icons/bs';
 import { TfiLinkedin } from 'react-icons/tfi';
 import MailForm from './components/MailForm';
 
@@ -26,10 +26,18 @@ const Contact = () => {
             href={'https://www.linkedin.com/in/yagoramires'}
             target='_blank'
           >
-            <TfiLinkedin size={30} />
+            <TfiLinkedin size={30} className='hover:text-yellow-500' />
           </Link>
           <Link href={'https://github.com/yagoramires'} target='_blank'>
-            <BsGithub size={30} />
+            <BsGithub size={30} className='hover:text-yellow-500' />
+          </Link>
+          <Link
+            href={
+              'https://wa.me/5521969711937?text=Ol%C3%A1%2C+estou+entrando+em+contato+atrav%C3%A9s+do+seu+portf%C3%B3lio+...'
+            }
+            target='_blank'
+          >
+            <BsWhatsapp size={30} className='hover:text-yellow-500' />
           </Link>
         </div>
       </div>
