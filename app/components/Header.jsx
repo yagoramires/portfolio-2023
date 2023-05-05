@@ -94,7 +94,7 @@ const Header = () => {
         </ul>
       </nav>
       <div
-        className='absolute right-8 lg:top-[32px] lg:right-[32px] border-[1px] border-yellow-500 rounded-full flex justify-between items-center gap-2 h-[30px] px-2 cursor-pointer'
+        className='absolute right-8 top-[26px] lg:top-[32px] lg:right-[32px] border-[1px] border-yellow-500 rounded-full flex justify-between items-center gap-2 h-[30px] px-2 cursor-pointer'
         onClick={handleDarkMode}
       >
         <BiSun size={20} className={`${darkMode ? '' : 'text-yellow-500'}`} />
