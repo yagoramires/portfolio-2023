@@ -10,7 +10,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className=''>
+    <>
       <section className='min-h-[calc(100vh-154px)] mb-32 flex flex-col justify-center items-center gap-16 '>
         <h2 className='text-3xl lg:text-6xl font-bold text-center'>
           Um pouco
@@ -63,7 +63,7 @@ const About = () => {
           )}
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

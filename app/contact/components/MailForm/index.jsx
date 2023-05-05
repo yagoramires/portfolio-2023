@@ -53,11 +53,11 @@ const MailForm = () => {
       >
         <div className='flex flex-col items-center justify-center gap-4 w-full lg:flex-row '>
           <div className='w-full flex flex-col lg:w-[50%]'>
-            <fieldset className='border-[1px] border-black pl-2 w-full '>
+            <fieldset className='border-[1px] border-black dark:border-white dark:bg-zinc-800 pl-2 w-full '>
               <legend className='px-2'>Seu Nome</legend>
               <input
                 type='text'
-                className='outline-none pb-2 pr-2 w-full'
+                className='outline-none dark:bg-zinc-800 dark:text-white pb-2 pr-2 w-full'
                 {...register('name')}
               />
             </fieldset>
@@ -66,11 +66,11 @@ const MailForm = () => {
             </p>
           </div>
           <div className='w-full flex flex-col lg:w-[50%]'>
-            <fieldset className='border-[1px] border-black pl-2 w-full '>
+            <fieldset className='border-[1px] border-black dark:border-white dark:bg-zinc-800 pl-2 w-full '>
               <legend className='px-2'>Seu E-mail</legend>
               <input
                 type='text'
-                className='outline-none pb-2 pr-2 w-full'
+                className='outline-none dark:bg-zinc-800 dark:text-white pb-2 pr-2 w-full'
                 {...register('email')}
               />
             </fieldset>
@@ -80,10 +80,10 @@ const MailForm = () => {
           </div>
         </div>
         <div className='w-full'>
-          <fieldset className='border-[1px] border-black pl-2 pr-2 w-full'>
+          <fieldset className='border-[1px] border-black dark:border-white dark:bg-zinc-800 pl-2 pr-2 w-full'>
             <legend className='px-2'>Sua Mensagem</legend>
             <textarea
-              className='resize-none w-full outline-none h-28'
+              className='resize-none w-full outline-none dark:bg-zinc-800 dark:text-white h-28'
               maxLength={255}
               {...register('message')}
             />

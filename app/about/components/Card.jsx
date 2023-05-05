@@ -1,8 +1,6 @@
 'use client';
 import Image from 'next/image';
 import React, { useState, useRef } from 'react';
-import { BsCircleFill } from 'react-icons/bs';
-import { TfiRulerPencil } from 'react-icons/tfi';
 
 const Card = ({ ability }) => {
   const [showFullText, setShowFullText] = useState(false);
@@ -14,21 +12,12 @@ const Card = ({ ability }) => {
     cardRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  console.log(ability);
   return (
     <div
       className='relative flex items-start justify-center gap-8 w-full cursor-pointer pt-8'
       onClick={handleShowFullText}
       ref={cardRef}
     >
-      {/* <div className='relative'>
-        <BsCircleFill size={35} className='text-yellow-500' />
-        <TfiRulerPencil
-          size={25}
-          className='absolute top-[16px] right-[-3px]'
-        />
-      </div> */}
-
       <Image
         src={
           ability?.icon?.toLowerCase() === 'html'

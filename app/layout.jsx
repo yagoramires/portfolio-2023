@@ -13,9 +13,9 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   return (
     <html lang='pt-BR'>
-      <body className={poppins.className}>
+      <body className={`${poppins.className} dark:bg-zinc-900 `}>
         <Header />
-        <main className='w-full flex items-center justify-center p-4 lg:p-8 lg:min-h-[calc(100vh-88px)] min-h-[calc(100vh-128px)] max-w-[1280px] mx-auto'>
+        <main className='w-full flex flex-col items-center justify-center p-4 lg:p-8 lg:min-h-[calc(100vh-88px)] min-h-[calc(100vh-128px)] max-w-[1280px] mx-auto dark:text-white'>
           {children}
         </main>
         <ToastContainer
