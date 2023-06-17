@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     url: 'https://github.com/yagoramires/order-simulator-react-ts',
     name: 'Gerador de pedidos D2B',
-    thumb: 'https://i.imgur.com/zFRSJ1a.png',
+    thumb: '/thumbs/salesplatform.png',
     demo: 'https://github.com/yagoramires/order-simulator-react-ts/raw/master/src/assets/readme.gif',
     technologies: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
     features: [
@@ -19,9 +19,27 @@ export const projects = [
   },
   {
     id: 2,
+    name: 'Video Platform',
+    url: 'https://github.com/yagoramires/fabrika-devs',
+    thumb: '/thumbs/videoplatform.PNG',
+    demo: 'https://github.com/yagoramires/fabrika-devs/raw/main/src/assets/user.gif',
+    technologies: ['React', 'JavaScript', 'Tailwind', 'Firebase'],
+    features: [
+      'Login e Cadastro de Usuários',
+      'Admins podem adicionar, editar e remover videos e categorias',
+      'Admins podem gerenciar os usuários',
+      'Usuários visualizar as aulas gravadas',
+      'Usuários baixar o material disponibilizado',
+      'Todos os usuários podem editar seus perfis',
+    ],
+    description:
+      'Este aplicativo oferece uma plataforma de vídeos para um curso de programação, nela os alunos podem assistir os conteúdos gravados e baixar o material disponibilizado das aulas. Os administradores possuem um dashboard no qual podem adicionar vídeos, criar categorias e gerenciar os usuários. ',
+  },
+  {
+    id: 3,
     name: 'Movie Reviews',
     url: 'https://github.com/yagoramires/movie-reviews-project',
-    thumb: 'https://i.imgur.com/vagOU9a.png',
+    thumb: '/thumbs/moviesreviews.png',
     demo: 'https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Tailwind', 'Firebase'],
     features: [
@@ -35,10 +53,10 @@ export const projects = [
       'Este aplicativo foi criado com intuito que o usuário possa compartilhar os filmes que assistiu recentemente e os outros usuários deixem seus comentários a respeito deles.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Rick and Morty Universe',
     url: 'https://github.com/yagoramires/rick-n-morty-project',
-    thumb: 'https://i.imgur.com/fcU6xlv.png',
+    thumb: '/thumbs/ricknmorty.png',
     demo: 'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'CSS', 'Axios'],
     features: [
@@ -49,10 +67,10 @@ export const projects = [
       'Esse aplicativo foi criado para demonstrar uma integração completa com uma API em GraphQL, nele o usuário pode visualizar todos os detalhes dos personagens, localizações e episódios da série animada Rick and Morty.',
   },
   {
-    id: 4,
-    name: 'Hamburgueria Kenzie',
+    id: 5,
+    name: 'Food Commerce',
     url: 'https://github.com/yagoramires/kenzie-burger',
-    thumb: 'https://i.imgur.com/fkyW3q8.png',
+    thumb: '/thumbs/foodcommerce.png',
     demo: 'https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif',
     technologies: ['React', 'Styled-Components', 'Firebase'],
     features: [
@@ -63,10 +81,10 @@ export const projects = [
       'Este aplicativo foi criado como exercício do curso Kenzie, no qual seu objetivo era simular um app de delivery de comida. O App foi criado todo por mim, sem auxilio de instrutores ou tutoriais.',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Bikes Map',
     url: 'https://github.com/yagoramires/bike-map-react-project',
-    thumb: 'https://i.imgur.com/fiC13dr.png',
+    thumb: '/thumbs/bikesmap.png',
     demo: 'https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
     features: [
@@ -76,20 +94,6 @@ export const projects = [
     ],
     description:
       'Este aplicativo foi criado com a intenção de localizar as bicicletas disponiveis nos aplicativos de aluguel, como a Bike do Itau, porém no mundo todo.',
-  },
-  {
-    id: 6,
-    name: 'Planets facts',
-    url: 'https://github.com/yagoramires/planets-fact-project',
-    thumb: 'https://i.imgur.com/BTw0ka0.png',
-    demo: 'https://github.com/yagoramires/planets-fact-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'HTML', 'CSS'],
-    features: [
-      'Usuário pode escolher entre os planetas do sistema solar',
-      'Usuário pode visualizar informações sobre cada planeta',
-    ],
-    description:
-      'Este aplicativo foi criado com a intenção de mostrar informações de cada planeta do sistema solar.',
   },
 ];
 

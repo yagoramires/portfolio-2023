@@ -11,7 +11,7 @@ import { BsCircleFill } from 'react-icons/bs';
 const Header = () => {
   const path = usePathname();
 
-  const [darkMode, setDarkmode] = useState(false);
+  const [darkMode, setDarkmode] = useState(true);
 
   useEffect(() => {
     const theme = localStorage.getItem('@THEME');
@@ -47,7 +47,7 @@ const Header = () => {
             path === '/' ? 'font-extrabold text-yellow-500 ' : 'font-extrabold'
           }
         >
-          .folio
+          .yago
         </Link>
       </h1>
       <nav className='flex-1'>
