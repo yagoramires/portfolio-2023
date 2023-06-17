@@ -21,7 +21,7 @@ export const projects = [
     id: 2,
     name: 'Video Platform',
     url: 'https://github.com/yagoramires/fabrika-devs',
-    thumb: '/thumbs/videoplatform.png',
+    thumb: '/thumbs/videoplatform.PNG',
     demo: 'https://github.com/yagoramires/fabrika-devs/raw/main/src/assets/user.gif',
     technologies: ['React', 'JavaScript', 'Tailwind', 'Firebase'],
     features: [
@@ -56,7 +56,7 @@ export const projects = [
     id: 4,
     name: 'Rick and Morty Universe',
     url: 'https://github.com/yagoramires/rick-n-morty-project',
-    thumb: '/thumbs/ricknmorty.png',
+    thumb: '/thumbs/ricknmorty.PNG',
     demo: 'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'CSS', 'Axios'],
     features: [
@@ -84,7 +84,7 @@ export const projects = [
     id: 6,
     name: 'Bikes Map',
     url: 'https://github.com/yagoramires/bike-map-react-project',
-    thumb: '/thumbs/bikesmap.png',
+    thumb: '/thumbs/bikesmap.PNG',
     demo: 'https://github.com/yagoramires/bike-map-react-project/raw/master/src/assets/readme.gif',
     technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
     features: [
