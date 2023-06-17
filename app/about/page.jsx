@@ -17,7 +17,7 @@ const About = () => {
           <br /> sobre mim
         </h2>
 
-        <p className='text-center lg:max-w-[60%]'>
+        <p className='text-justify lg:max-w-[60%]'>
           Sou um profissional formado em Contabilidade, mas descobri minha
           paixão pelo desenvolvimento web e decidi mudar de carreira. Desde
           então, venho me dedicando a aprender e aprimorar minhas habilidades

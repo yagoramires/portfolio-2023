@@ -8,7 +8,7 @@ const TimelineCard = ({ option }) => {
       <span className='text-xs mt-[-8px]'>
         {option.label} - {option.date}
       </span>
-      <p className='text-sm'>{option.description}</p>
+      <p className='text-sm text-justify'>{option.description}</p>
       <div className='h-12 w-full' />
     </li>
   );
