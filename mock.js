@@ -21,7 +21,7 @@ export const projects = [
     id: 2,
     name: 'Video Platform',
     url: 'https://github.com/yagoramires/fabrika-devs',
-    thumb: '/thumbs/videoplatform.PNG',
+    thumb: '/thumbs/videoplatform.png',
     demo: 'https://github.com/yagoramires/fabrika-devs/raw/main/src/assets/user.gif',
     technologies: ['React', 'JavaScript', 'Tailwind', 'Firebase'],
     features: [
