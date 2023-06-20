@@ -18,13 +18,12 @@ const About = () => {
         </h2>
 
         <p className='text-justify lg:max-w-[60%]'>
-          Sou um profissional formado em Contabilidade, mas descobri minha
-          paixão pelo desenvolvimento web e decidi mudar de carreira. Desde
-          então, venho me dedicando a aprender e aprimorar minhas habilidades
-          nessa área. Sou uma pessoa organizada e criativa, o que me ajuda a
-          desenvolver soluções inovadoras e eficazes. Além disso, sou proativo e
-          focado em alcançar meus objetivos, o que me permite lidar com desafios
-          e superar obstáculos. Meu objetivo é me tornar um grande desenvolvedor
+          Comecei a estudar desenvolvimento web desde 2021. Desde então, venho
+          me dedicando a aprender e aprimorar minhas habilidades nessa área. Sou
+          uma pessoa organizada e criativa, o que me ajuda a desenvolver
+          soluções inovadoras e eficazes. Além disso, sou proativo e focado em
+          alcançar meus objetivos, o que me permite lidar com desafios e superar
+          obstáculos. Meu objetivo é me tornar um grande desenvolvedor
           front-end, e estou comprometido em continuar aprendendo e me
           desenvolvendo nessa área para alcançar esse objetivo.
         </p>

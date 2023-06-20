@@ -41,7 +41,7 @@ export const projects = [
     url: 'https://github.com/yagoramires/movie-reviews-project',
     thumb: '/thumbs/moviesreviews.png',
     demo: 'https://github.com/yagoramires/movie-reviews-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'Tailwind', 'Firebase'],
+    technologies: ['React', 'JavaScript', 'Tailwind', 'Firebase'],
     features: [
       'Login e Cadastro de Usuários',
       'Usuários podem adicionar filmes que assistiram recentemente',
@@ -58,7 +58,7 @@ export const projects = [
     url: 'https://github.com/yagoramires/rick-n-morty-project',
     thumb: '/thumbs/ricknmorty.PNG',
     demo: 'https://github.com/yagoramires/rick-n-morty-project/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'CSS', 'Axios'],
+    technologies: ['React', 'JavaScript', 'CSS', 'Axios'],
     features: [
       'Pesquisa de personagens, locais e episódios',
       'Detalhes de personagens, locais e episódios',
@@ -72,7 +72,7 @@ export const projects = [
     url: 'https://github.com/yagoramires/kenzie-burger',
     thumb: '/thumbs/foodcommerce.png',
     demo: 'https://github.com/yagoramires/kenzie-burger/raw/master/src/assets/readme.gif',
-    technologies: ['React', 'Styled-Components', 'Firebase'],
+    technologies: ['React', 'JavaScript', 'Styled-Components', 'Firebase'],
     features: [
       'Adicionar e remover produtos do carrinho',
       'Pesquisar por produtos',
@@ -146,8 +146,9 @@ export const education = [
     id: 1,
     name: 'Formação em Programação',
     label: 'Kenzie Academy Brasil',
-    date: '2023 - Cursando',
-    description: 'Curso focado em desenvolvimento full stack. ',
+    date: '2023',
+    description:
+      ' HTML, CSS, JavaScript, TypeScript, React, Redux, GitHub. Curso focado em desenvolvimento fullstack, porém só realizei a parte de front-end. ',
   },
   {
     id: 2,
